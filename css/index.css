@@ -23,28 +23,25 @@
 			font-weight:700;
 			text-align:center;
 			border:1px solid red;
+            order:1;
 			
 		}
 		li.flex-item:nth-child(1){
 			height:120px;
-			line-height:120px;
-			order:1;			
+			line-height:120px;			
 		}
 		li.flex-item:nth-child(2){
 			height:100px;
 			line-height:100px;
-			order:1;
 		}
 		li.flex-item:nth-child(3){
 			height:40px;
 			line-height:40px;
-			order:1;
 		}
 		li.flex-item:nth-child(4){
 			height:200px;
 			line-height:200px;
 			border:1px solid blue;
-			order:1;
 		}
 		@media (min-width){
 
